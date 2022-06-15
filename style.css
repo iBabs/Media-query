@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("images/bg-intro-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(247 123 123);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-family:"century gothic";
+}
+
+div{
+    margin: 2em 1em;
+}
+div h1{
+    margin:3em 0 1em 0;
+}
+.msg{
+    font-weight: 600;
+    line-height: 25px;
+    margin: 15px 0 3em 0;
+}
+.trial{
+    background-color: rgb(139 98 193);
+    padding:  1em 3.2em;
+    color: white;
+    box-shadow: 0 7px rgb(163, 75, 75);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    font-size: large;
+}
+
+form{
+    background-color: white;
+    min-height:150px ;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px 10px 5px 10px;
+    box-shadow: 0 7px rgb(163, 75, 75);;
+}
+input{
+    padding: 1.2em;
+    margin: 10px 0;
+    border: solid 1px hsl(246, 25%, 77%);
+    width: 18em;
+    border-radius: 3px;
+}
+.claim{
+    color: white;
+    background-color: rgb(89, 177, 89);
+    padding: 1em 5em;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    box-shadow:  0 3px rgb(15, 133, 15);
+    margin: 0 0 15px 0;
+}
+
+.agree{
+    color:hsl(246, 25%, 77%) ;
+    margin:0  10px;
+}
+ .agree a{
+    text-decoration: none;
+    color: red;
+    font-weight: 800;
+ }
+
+ @media only screen and (min-width: 600px){
+    body{
+        display: flex;
+        justify-content: space-around;
+        background-image: url("images/bg-intro-desktop.png");
+        margin: 6em;
+    }
+    .temi{
+        margin-top: 50px;
+        text-align: left;
+        padding: 30px;
+    }
+    div h1{
+        font-size: 45px;
+        margin:5px ;
+    }
+    div{
+        margin: 0;
+    }
+    .trial{
+        padding: 10px 25px ;
+        width: max-content;
+        font-weight: 300;
+        font-size: medium;
+    }
+    .msg{
+        margin-top: 1em;
+        margin-bottom: 5em;
+    }
+    form{
+        margin: 0 5px;
+    }
+    input{
+        padding:0.7em;
+        margin: 5px 0;
+        width: 20em;
+        border-radius: 3px;}
+    .claim{
+        padding: 0.7em 4.5em;
+        font-weight: 300;
+    }
+    .agree{
+        font-size: smaller;
+    }
+ }
